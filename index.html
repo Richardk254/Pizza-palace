@@ -174,19 +174,26 @@ rel="stylesheet"
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <div class="piz">
-      <img src="./images/pic3.jpg" class="d-block w-100" alt="" height="680px"/>
-    </div>
-      <div class="carousel-caption d-none d-md-block">
-        <h5 style="color: black; font-size: 60px;">Tasty Pizza</h5>
-        <p style="color: black; font-size: 20px;">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
       <img src="./images/bg2.webp" class="d-block w-100" alt=""height="680px"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5 style="color: black; font-size: 60px;">Second slide label</h5>
-        <p style="color: black; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="second">
+        <h5 style="color:white; font-size: 60px;"> Ruppin Pizza shop</h5>
+        <p style="color: white; font-size: 20px;">Get tasty pizzas at an affordable prices</p>
+       <button class="btn" style="background-color:#ffa500 ; color: black; font-size: 16px;"> <a href="#order"></a> Order</button></a>
+      </div>
+      </div>
+      
+    </div>
+    <div class="carousel-item">
+      <img src="bg3.jpg" class="d-block w-100" alt="" height="680px"/>
+    
+      <div class="carousel-caption d-none d-md-block">
+        <div class="third">
+        <h5 style="color: white; font-size: 60px;"> Get Tasty Pizzas</h5>
+        <p style="color: white; font-size: 20px;">Quality pizza you can think of.</p>
+
+        
+      </div>
       </div>
     </div>
    
@@ -220,7 +227,7 @@ As well as a list of fresh toppings to customize your own pie.</p>
 <!-- end about section -->
 <!-- star of the menu section -->
 <div class="menu" id="menu">
-  <h3 style="color: #192A56; font-weight: bold;">Our <span style="color: #ffa500;">Menu</span></h3>
+  <h3 style="color: #192A56; font-weight: bold; font-family:'lobster', serif;">Our <span style="color: #ffa500;">Menu</span></h3>
   <div class="row1">
 <div class="image">
   
@@ -263,7 +270,7 @@ As well as a list of fresh toppings to customize your own pie.</p>
  
 <div class="container hey">
   <form action="" id="order">
-    <h3 style="color: #192A56; font-weight: bold; ">Order <span style="color: #ffa500;">Now!</span></h3>
+    <h3 style="color: #192A56; font-weight: bold; font-family:'lobster', serif; ">Order <span style="color: #ffa500;">Now!</span></h3>
   <div class="card" style="color:black">
       <p style="color: #192A56;">Choose the Pizza Flavour you want</p>
       <select class="form-control form-control-sm" id="Flavour">
@@ -284,7 +291,7 @@ As well as a list of fresh toppings to customize your own pie.</p>
     <p style="color: #192A56;">Choose what kind of crust</p> 
     <select class="form-control form-control-sm" id="Crust">
       <option>select</option>
-      <option value="150">Thin crust @ Ksh.150</option>
+      <option value="150">Thin crust @Ksh.150</option>
       <option value="200">Thick crust @Ksh.200</option>
       <option value="250">Stuffed crust @Ksh.250</option>
     </select>
@@ -315,7 +322,7 @@ As well as a list of fresh toppings to customize your own pie.</p>
   <div class="col-sm-7" id="orderPut">
                  
     <div class="orderCalculation">
-      <h3 style="color: #192A56;">Your Order is:</h3>
+      <h3 style="color: #192A56; ">Your Order is:</h3>
       <div id="your-orders">
         <table class="table table-sm  pizzaTable">
           <thead>
@@ -341,7 +348,7 @@ As well as a list of fresh toppings to customize your own pie.</p>
       <br /><br />
         <button class="btn btn-success" id="Checkout" onclick="myPizza()" >Checkout</button>
         <div class="checkout-info hidden">
-          <h4 id="check" style="color: #192A56;">Check form</h4>
+          <h4 id="check" style="color: #192A56; ">Check form</h4>
           <form action="" id="checkoutForm">
   <div class="form-group">
   <input type="text" id="name" class="form-control mb-3" placeholder="Name">
@@ -350,13 +357,13 @@ As well as a list of fresh toppings to customize your own pie.</p>
   <option value="deliver">Home Delivery?</option>
   <option value="collect">Pick Up</option>
   </select>
-  </div>
+  </div><br>
   <button type="submit" class="btn btn-success" id="final-option">Deliver</button>
   </form>
   </div>
   <div class="deliveryLocation hidden">
   <form id="locationForm">
-  <h4 style="color: #192A56;">Enter your location</h4>
+  <h4 style="color: #192A56; " >Enter your location</h4>
   <div class="form-group">
   <label>Estate</label>
   <input type="text" class="form-control" id="estate" placeholder="Enter Your Name"
@@ -366,8 +373,8 @@ As well as a list of fresh toppings to customize your own pie.</p>
   <label for="exampleFormControlSelect1">House Number</label>
   <input type="text" class="form-control" id="houseNumber" placeholder="Enter Your Name"
       required />
-  </div>
-  <button type="submit" class="btn btn-success" id="submit" >Submit</button>
+  </div><br>
+<button type="submit" class="btn btn-success" id="submit" >Submit</button>
   </form>
   </div>
         </div>
@@ -380,8 +387,46 @@ As well as a list of fresh toppings to customize your own pie.</p>
 <!-- end order -->
 <!-- start contact -->
 <div class="contact" id="contact">
-  <h3 style="color: #192A56; font-weight: bold; ">Contact <span style="color: #ffa500;">Us</span></h3>
+  <h3 style="color: #192A56; font-weight: bold; font-family:'lobster', serif; ">Contact <span style="color: #ffa500;">Us</span></h3>
+  <div class="con">
+    <div class="num">
+   <h4 style="color: #192A56; font-size: 20px; font-family:'lobster', serif; font-weight: bold;"> Contacts</h4>
+   <p>richiepizza@gmail.com<br>
+   +25412345677<br>
+   cell:0001140098<br>
+  0550,Meru
+</p>
+    </div>
 
+    <div class="num2">
+      <h4 style="color: #192A56; font-size: 20px; font-family:'lobster', serif; font-weight: bold;"> Location</h4>
+      <p> Zuri prestige<br>
+       Meru <br>
+      2nd Floor<br>
+      Room-4
+    </p>
+       </div>
+       <div class="num3">
+        <h4 style="color: #192A56; font-size: 20px; font-family:'lobster', serif; font-weight: bold;">Quick Links</h4>
+        <p>Home<br>
+        About<br>
+        Our Menu<br>
+        Contact</p>
+         </div>
+         <div class="num5">
+          <h4 style="color: #192A56; font-size: 20px; font-family:'lobster', serif; font-weight: bold;">Follow Us</h4>
+          <p>Twitter<br>
+          Facebook<br>
+          Instagram<br>
+          LinkedIn</p>
+           </div>
+               
+
+  </div>
+</div>
+<!-- end contact -->
+<div class="footer">
+<p>Copyright © 2022:Richard Koinange</p>
 
 </div>
 

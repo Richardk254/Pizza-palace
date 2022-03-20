@@ -54,3 +54,25 @@ body{
 .contact{
   padding-top: 8%;
 }
+.contact h3{
+    text-align: center;
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+.footer{
+    padding-top: 3%;
+    text-align: center;
+}
+.second{
+    margin-bottom: 30%;
+    margin-right: 15%;
+}
+.third{
+    margin-bottom: 35%;
+    margin-left: 25%;
+}
