@@ -2,8 +2,8 @@
 * a website to order pizza and request delivery at a cost
 ## Description
 * The Pizza-inn is a  pizza house with multiple locations in Nairobi and this is a web application which allows users to make orders. The app has a variety of pizzas to choose from with various options of size, toppings and crust. The user can also request for delivery of the pizza and can order as many pizzas as he or she wishes. For this version, only one pizza is available to be ordered.
-### Live link
-
+## Live link
+https://richardk254.github.io/Pizza-palace/
 ### BDD
 * User selects the pizza he would like to order customizing it with options for size, crust and toppings.
 * A price breakdown and grand total price will appear as well as a checkout button to confirm order.
