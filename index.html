@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza-place</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
     <!-- Font Awesome -->
 <link
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -280,7 +281,7 @@ As well as a list of fresh toppings to customize your own pie.</p>
         <option value="600"> Medium</option>
         <option value="400">Small</option>
       </select>
-    <p style="color: #192A56;">Choose what kind of crust</p>  <br>
+    <p style="color: #192A56;">Choose what kind of crust</p> 
     <select class="form-control form-control-sm" id="Crust">
       <option>select</option>
       <option value="150">Thin crust @ Ksh.150</option>
@@ -300,12 +301,13 @@ As well as a list of fresh toppings to customize your own pie.</p>
   <form id="pricing">
     <option value="one"></option>
     <div class="form-group">
+         <div class="number">
           <label for="" style="color: #192A56;" >Number of Pizza </label>
           <br>
           <input type="number" class="form-control" id="number" placeholder="" required  min="1"/>
-        </div>
-        <button type="button" class="btn btn-success btn-lg" style="margin-left: 40%;" id="checkout">Order</button>
-        
+        </div><br>
+        <button type="button" class="btn btn-success btn-lg"  id="checkout">Order</button>
+      </div>
       </form>
       </div>
       <br><br>
@@ -376,6 +378,13 @@ As well as a list of fresh toppings to customize your own pie.</p>
 
 </div>
 <!-- end order -->
+<!-- start contact -->
+<div class="contact" id="contact">
+  <h3 style="color: #192A56; font-weight: bold; ">Contact <span style="color: #ffa500;">Us</span></h3>
+
+
+</div>
+
   
     
 
