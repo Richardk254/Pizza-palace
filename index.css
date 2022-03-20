@@ -3,11 +3,43 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    font-family:'lobster', serif;
+}
 .hey{
     display: flex;
-    padding-top: 8%;
+    padding-top: 10%;
     margin-left: 10%;
 }
 .text{
     padding-left: 10%;
+}
+.menu h3{
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'lobster', serif;
+}
+.image p{
+    padding-left: 38%;
+}
+.image h4{
+    padding-left: 28%;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    padding-top: 4%;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4%;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
 }
