@@ -12,7 +12,7 @@ https://richardk254.github.io/Pizza-palace/
 * step 1: git clone my repository
 * step 2: navigate to the directory Pizza-inn
 * step 3: open the directory with your prefered editor
-** be free to work through it.
+* be free to work through it.
 ## Technologies used 
 * html
 * Css
